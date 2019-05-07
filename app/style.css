@@ -1,0 +1,86 @@
+
+.body{
+  position: fixed;
+  overflow: scroll;
+  width: 100%;
+  top: -20px;
+  right: -20px;
+  left: -20px;
+  bottom: -40px;
+  /* width: auto;
+  height: auto; */
+  background-image: url('https://static01.nyt.com/images/2013/08/11/travel/11EXPLORER_SPAN/11EXPLORER_SPAN-articleLarge.jpg?quality=75&auto=webp&disable=upscale');
+  background-size: cover;
+}
+
+.form{
+  background: black;
+  height: 300px;
+  width: 300px;
+}
+.head{
+  position: absolute;
+  /* top: calc (50% -35px);
+  left: calc(50% -255px); */
+}
+.header div{
+  float: left;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+
+}
+.header div span{
+  color: #00ffff;
+  
+}
+.login{
+  position: absolute;
+  /* top: calc (50% -75px);
+  left: calc (50% -50px); */
+  height: 150px;
+  width:350px;
+  padding: 10px;
+}
+.login input[type=text]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid  #00ffff;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+}
+.login input[type=button]:hover{
+  opacity:0.8;
+  background-color: chartreuse;
+}
+.login input[type=button]:active{
+  opacity:0.6;
+
+}
+.login input[type=password]:focus{
+  outline:none;
+  border: 1-px solid #00ffff;
+}
+.login input[type=button]:focus{
+  outline:none;
+  background-color: rgb(226, 43, 195);
+}
+::-webkit-input-placeholder{
+  color: #00ffff;
+}
+::-moz-input-placeholder{
+  color:  #00ffff;
+}
+.SUBSCRIBE{
+  font-size: 40px;
+  padding-left: 10px;
+  font-weight: 700;
+ color: white;
+text-shadow: 2px 2px black;
+}
